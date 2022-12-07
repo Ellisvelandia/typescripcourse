@@ -1,70 +1,30 @@
-// // // const userName = "Ellis";
-// // // const age = 29;
+// // let message: string = "hello world";
 
-// // // console.log(`Hello world , my names is ${userName} i'm ${age} yeras old.`);
+// // message = "chanchito happy";
 
-// // // // Basic types
-// // // // let myTypeString: string = "Hello world";
-// // // // let myTypeNumber: number = 29;
-// // // // let myTypeBoolean: boolean = true;
+// // console.log(message);
 
-// // // // let arrNumber: number[] = [1, 2, 3];
-// // // // let arrNumber2 : Array<number> = [1,2,3];
-// // // // let arrString: string[] = ["Uno", "Dos"];
+// // message = "goodbye world";
+// let exticnDinosaurs: number = 76000000;
+// let donosaurFavorite: string = "T-rex";
+// let extinct: boolean = true;
 
-// // // // let assAny: any[] = ["Hello", 2, true];
+// let variable;
+// let myVariable: string = "Chancho happy";
 
-// // // // Tupple
-// // // // let tuplePlayers: [string, number, boolean] = ["Donic", 3, true];
-
-// // // // Tuple Arrays
-
-// // // // let players: [number, string][];
-
-// // // // players = [
-// // //   // [1, "Lebron"],
-// // //   // [2, "jebron"],
-// // //   // [3, "uebron"],
-// // // // ];
-
-
-
-// // // let user  = {name: "ellis", age: 29}
-
-// // // console.log("user.name")
-
-
-// // let greetings: string = "hello ellis"
-
-
-// // let mynum = 6
-
-// // greetings.toLowerCase()
-
-// // console.log(greetings)
-
-// // //number
-
-// // let userId: number = 334455.3
-// // // userId = 334455.5
-
-// // userId.toFixed()
-// // // userId = "ellis"
-// // //boolean
-
-// // let isLoggedIn: boolean = false
-
-// // // 
-
-// // export {}
-
-
-// // ANY
-
-// let hero: string;
-
-// function getHero() {
-//   return "thor"
+// function chanchoHappy(config: any) {
+//   return config;
 // }
 
-// hero = getHero()
+// let animals: string[] = ["pig", "dog", "cat", "horse"];
+// let nums: number[] = [1, 2, 3, 4];
+// let checks: boolean[] =[]
+// let nums2: Array<number> = []
+
+// // animals.map(x => x.) autocomplete suggest methode date
+
+// // 
+// // Tupla
+
+// let tupla: [number, string[]] = [1, ["PigHappy", "pigPink"]]
+// tupla.push(12)
