@@ -41,3 +41,8 @@ function getName(firstName, lastName) {
 }
 getName("ellis");
 document.write(getName("crisanto"), "asimov");
+function showTodo(todo) {
+    console.log("".concat(todo.title, " - ").concat(todo.text));
+}
+var myTodo = { title: "Eat Dinner", text: "lorem" };
+showTodo(myTodo);

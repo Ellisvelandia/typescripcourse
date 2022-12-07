@@ -54,3 +54,19 @@ function getName(firstName: string, lastName?: string): string {
 getName("ellis");
 
 document.write(getName("crisanto"), "asimov");
+
+
+//interfaces
+interface ITodo {
+  title: string;
+  text: string;
+}
+
+
+function showTodo(todo:ITodo) {
+  console.log(`${todo.title} - ${todo.text}`)
+}
+
+let myTodo : ITodo = {title: "Eat Dinner", text: "lorem"}
+
+showTodo(myTodo)
